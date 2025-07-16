@@ -1,6 +1,8 @@
 #include <stdio.h>
 
-void main()
+int main()
 {
-	printf("sadasda");
+	printf("League of Legends");
+
+	return 0;
 }
