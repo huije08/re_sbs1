@@ -7,6 +7,9 @@
       "RelativeMoniker": "D:0:0:{6BE54BA0-D0DB-4991-B8A0-1BFE9DB42506}|Program.vcxproj|solutionrelative:Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C81C18D8-6158-4FF9-9796-D8F50DFBE516}|..\\Class3th (Bit)\\Class3th (Bit).vcxproj|C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\re_sbs1\\Class3th (Bit)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5B97575E-0109-47F4-959B-FC574B8EA67D}|..\\Class2th (variable \u0026 construct)\\Class2th (variable \u0026 construct).vcxproj|C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\re_sbs1\\Class2th (variable \u0026 construct)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
@@ -20,24 +23,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Source.c",
+              "DocumentMoniker": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\re_sbs1\\Class3th (Bit)\\Source.c",
+              "RelativeDocumentMoniker": "..\\Class3th (Bit)\\Source.c",
+              "ToolTip": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\re_sbs1\\Class3th (Bit)\\Source.c",
+              "RelativeToolTip": "..\\Class3th (Bit)\\Source.c",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAQwHUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-07-18T09:49:17.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\re_sbs1\\Class2th (variable \u0026 construct)\\Source.c",
               "RelativeDocumentMoniker": "..\\Class2th (variable \u0026 construct)\\Source.c",
               "ToolTip": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\re_sbs1\\Class2th (variable \u0026 construct)\\Source.c",
               "RelativeToolTip": "..\\Class2th (variable \u0026 construct)\\Source.c",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAQwFsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAQwFAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-07-17T09:15:20.766Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\re_sbs1\\Class1th (Compile)\\Source.c",
               "RelativeDocumentMoniker": "..\\Class1th (Compile)\\Source.c",
@@ -56,7 +72,7 @@
               "RelativeDocumentMoniker": "Source.c",
               "ToolTip": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\re_sbs1\\Program\\Source.c",
               "RelativeToolTip": "Source.c",
-              "ViewState": "AgIAADUAAAAAAAAAAAAQwD8AAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-07-16T08:47:39.77Z",
               "EditorCaption": ""
