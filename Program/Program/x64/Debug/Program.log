@@ -1,2 +1,3 @@
 ﻿  Source.c
+C:\Users\huije\OneDrive\바탕 화면\re_sbs1\Program\Source.c(63,2): warning C4098: 'main': 'void' function returning a value
   Program.vcxproj -> C:\Users\huije\OneDrive\바탕 화면\re_sbs1\Program\x64\Debug\Program.exe
