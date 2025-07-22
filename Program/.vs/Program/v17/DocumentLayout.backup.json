@@ -7,6 +7,9 @@
       "RelativeMoniker": "D:0:0:{6BE54BA0-D0DB-4991-B8A0-1BFE9DB42506}|Program.vcxproj|solutionrelative:Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{52F69D3B-FEF3-4D47-8F33-864E81C23C5B}|..\\Class5th (Conditional Statement)\\Class5th (Conditional Statement).vcxproj|C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\re_sbs1\\Class5th (Conditional Statement)\\Class5th (Conditional Statement).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B80BD977-C083-4611-9EB8-24CC2EA44525}|..\\Class4th (Overflow \u0026 Underflow)\\Class4th (Overflow \u0026 Underflow).vcxproj|C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\re_sbs1\\Class4th (Overflow \u0026 Underflow)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
@@ -26,11 +29,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Class5th (Conditional Statement).cpp",
+              "DocumentMoniker": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\re_sbs1\\Class5th (Conditional Statement)\\Class5th (Conditional Statement).cpp",
+              "RelativeDocumentMoniker": "..\\Class5th (Conditional Statement)\\Class5th (Conditional Statement).cpp",
+              "ToolTip": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\re_sbs1\\Class5th (Conditional Statement)\\Class5th (Conditional Statement).cpp",
+              "RelativeToolTip": "..\\Class5th (Conditional Statement)\\Class5th (Conditional Statement).cpp",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAiwJ0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-22T10:43:03.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\re_sbs1\\Class4th (Overflow \u0026 Underflow)\\Source.c",
               "RelativeDocumentMoniker": "..\\Class4th (Overflow \u0026 Underflow)\\Source.c",
@@ -38,12 +54,11 @@
               "RelativeToolTip": "..\\Class4th (Overflow \u0026 Underflow)\\Source.c",
               "ViewState": "AgIAAB0AAAAAAAAAAAAQwDYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-07-21T09:38:34.732Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-21T09:38:34.732Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\re_sbs1\\Class3th (Bit)\\Source.c",
               "RelativeDocumentMoniker": "..\\Class3th (Bit)\\Source.c",
@@ -55,7 +70,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\re_sbs1\\Class2th (variable \u0026 construct)\\Source.c",
               "RelativeDocumentMoniker": "..\\Class2th (variable \u0026 construct)\\Source.c",
@@ -67,7 +82,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\re_sbs1\\Class1th (Compile)\\Source.c",
               "RelativeDocumentMoniker": "..\\Class1th (Compile)\\Source.c",
@@ -85,7 +100,7 @@
               "RelativeDocumentMoniker": "Source.c",
               "ToolTip": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\re_sbs1\\Program\\Source.c",
               "RelativeToolTip": "Source.c",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAwwGEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJYAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-07-16T08:47:39.77Z",
               "EditorCaption": ""

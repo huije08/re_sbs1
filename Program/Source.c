@@ -79,26 +79,75 @@ void main()
 #pragma region switch문
 	// 어떤 결과에 따라 그 결과부터 실행되는 명령문 입니다.
 
-	char grade = 'B';
-
-	switch (grade)
-	{
-		case 'A': printf("100~90점 입니다. \n");
-			break;
-		case 'B': printf("89~80점 입니다. \n");
-			break;
-		case 'C': printf("79~70점 입니다. \n");
-			break;
-		case 'D': printf("69~60점 입니다. \n");
-			break;
-		case 'F': printf("60점 이하 입니다. \n");
-			break;
-
-		default: printf("Exception\n");
-			break;
-		
-	}
+	//char grade = 'B';
+	//
+	//switch (grade)
+	//{
+	//	case 'A': printf("100~90점 입니다. \n");
+	//		break;
+	//	case 'B': printf("89~80점 입니다. \n");
+	//		break;
+	//	case 'C': printf("79~70점 입니다. \n");
+	//		break;
+	//	case 'D': printf("69~60점 입니다. \n");
+	//		break;
+	//	case 'F': printf("60점 이하 입니다. \n");
+	//		break;
+	//
+	//	default: printf("Exception\n");
+	//		break;
+	//	
+	//}
 #pragma endregion
+
+#pragma region 논리 연산자
+
+#pragma region AND 연산자
+// 두 개의 조건이 다 성립될 때 실행되는 연산자입니다.
+
+	int score = 99;
+	char rank = 'A';
+
+	if (score == 100 && rank == 'A')
+	{
+		printf("1st Place");
+	}
+
+
+#pragma endregion
+
+#pragma region OR 연산자
+
+	int weight = 70;
+	int bodyfat = 30;
+
+	if (weight > 75 || bodyfat > 20)
+	{
+		printf("비만입니다.");
+	}
+
+#pragma endregion
+
+#pragma region NOT 연산자
+	//하나의 조건을 반전시키는 연산자입니다.
+
+	int power = 0;
+
+	if (!power)
+	{
+		printf("off");
+	}
+
+#pragma endregion
+
+#pragma region 4분면
+
+	
+#pragma endregion
+
+
+#pragma endregion
+
 // pull request
 
 #pragma endregion
