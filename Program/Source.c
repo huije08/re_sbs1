@@ -2,156 +2,101 @@
 
 void main()
 {
-#pragma region 조건문
-	// 어떤 조건이 주어질 때 해당 조건에 따라 동작을
-	// 수행하도록 실행하는 명령문입니다.
+#pragma region 반복문
+	// 프로그램 내에서 특정한 작업을 반복적으로 
+	// 수행하는 명령문 입니다.
 
-#pragma region 관계 연산자
-	// 두 개의 피연산자의 값을 비교하여 그 결과를 0 또는
-	// 1이라는 값으로 나타내는 연산자입니다.
+#pragma region 증감 연산자
+	// 피연산자를 하나씩 증가시키거나 감소시킬 떄
+	// 사용하는 연산자임
 
-	// int positionX=10;
-	// int positionY=20;
+	// int previouseX = 0;
+	// int x;
 	// 
-	// printf("positionX < positionY : %d\n", positionX < positionY);
-	// printf("positionX > positionY : %d\n", positionX > positionY);
-	// printf("positionX <= positionY : %d\n", positionX <= positionY);
-	// printf("positionX >= positionY : %d\n", positionX >= positionY);
-	// printf("positionX != positionY : %d\n", positionX != positionY);
-	// printf("positionX == positionY : %d\n", positionX == positionY);
+	// x = ++previouseX;
+	// 
+	// printf("previouseX변수를 전위 증가한 값 : %d\n", previouseX);
+	// printf("x변수를 전위 증가한 값 : %d\n", x);
+	// 
+	// x = --previouseX;
+	// 
+	// printf("previouseX변수를 전위 감소 한 값 : %d\n", previouseX);
+	// printf("x변수를 전위 감소한 값 : %d\n", x);
 
-	// 관계 연산자는 조건이 맞을 때 1이라는 값으로 반환되며,
-	// 조건이 틀릴  0이라는 값으로 반환됩니다.
 
+	// 전위증강 연산자는 변수의 값을 증강시킨 후에 연산을 수행합니다.
+
+	// 후위 증강 연산자는 연산을 수행한 다음 변수의 값을 증강시킵니다.
+	// int previouseY = 0;
+	// int y;
+	// 
+	// y = previouseY++;
+	// 
+	// printf("previouseX변수를 후위 증가한 값 : %d\n", previouseY);
+	// printf("x변수를 후위 증가한 값 : %d\n", y);
+	// 
+	// y = previouseY--;
+	// 
+	// printf("previouseX변수를 후위 감소 한 값 : %d\n", previouseY);
+	// printf("x변수를 후위 감소한 값 : %d\n", y);
 #pragma endregion
 
-#pragma region if문
-	// 어떤 특정한 조건을 비교하여 조건이 맞다면 실행되는
-	// 명령문입니다.
+#pragma region for문
+	// 초기식을 연산하여 조건식의 결과에 따라 특정한
+	// 횟수만큼 반복하는 반복문 입니다.
 
-	//int health = 0;
-
-	//if (health == 0)
+	//for (int i = 0; i < 10; i++)
 	//{
-	//	printf("xzczxc");
-	//}
-#pragma endregion
-
-#pragma region else if 문
-	// if문의 조건이 틀릴 때 else if문의 조건이
-	// 맞다면 실행되는 명령문 입니다.
-
-	//int level = 9;
-	//
-	//printf(" Your level : %d\n", level);
-	//
-	//if (level == 99)
-	//{
-	//	printf("최대레벨 입니다! \n");
-	//}
-	//else if (level < 99)
-	//{
-	//	printf("아직 최대레벨이 아닙니다.\n");
-	//	printf("열심히 레벨업 해보세요!\n");
-	//}
-	
-#pragma endregion
-
-#pragma region else문
-	// if문과 else if문의 조건이 다 틀리면
-	// 실행되는 명령문입니다.
-	//int health = 10;
-	//if (health > 0)
-	//{
-	//	printf("alive");
-	//}
-	//else if (0 < health <= 10)
-	//{
-	//	printf("위험합니다 회복하세요");
-	//}
-	//else
-	//{
-	//	printf("dead");
-	//}
-
-#pragma endregion
-
-#pragma region switch문
-	// 어떤 결과에 따라 그 결과부터 실행되는 명령문 입니다.
-
-	//char grade = 'B';
-	//
-	//switch (grade)
-	//{
-	//	case 'A': printf("100~90점 입니다. \n");
-	//		break;
-	//	case 'B': printf("89~80점 입니다. \n");
-	//		break;
-	//	case 'C': printf("79~70점 입니다. \n");
-	//		break;
-	//	case 'D': printf("69~60점 입니다. \n");
-	//		break;
-	//	case 'F': printf("60점 이하 입니다. \n");
-	//		break;
-	//
-	//	default: printf("Exception\n");
-	//		break;
-	//	
+	//	printf("%d 번째 출력\n", i+1);
 	//}
 #pragma endregion
 
-#pragma region 논리 연산자
+#pragma region while문
+	// 특정 조건을 만족할 때까지 계속해서 주어진 명령문을 
+	// 실행하는 반복문 입니다.
+	// int count = 5;
+	// while (count>0)
+	// {
+	// 	printf("count : %d\n", count);
+	// 	count--;
+	// }
 
-#pragma region AND 연산자
-// 두 개의 조건이 다 성립될 때 실행되는 연산자입니다.
+	// while문의 경우 위에서 아래로 실행되며, 아래에 있는
+	// 명령문의 실행이 다 끝나면 다시 위에있는 명령문으로
+	// 돌아가서 반복하는 구조입니다.
+#pragma endregion
 
-	int score = 99;
-	char rank = 'A';
+#pragma region do-while문
+	// 조건과 상관없이 한번의 작업을 수행한 다음 조건에 
+	// 따라 명령문을 실행하는 반복문입니다.
 
-	if (score == 100 && rank == 'A')
+	// int life = 0;
+	// 
+	// do
+	// {
+	//		printf("Alive\n");
+	// } while (life > 0);
+#pragma endregion
+
+#pragma region continue문
+	// 해당 조건문만 실행하지 않고, 반복문은 이어서
+	// 실행하는 제어문입니다.
+
+	for (int i = 1; 1 <= 10; i++)
 	{
-		printf("1st Place");
+		if (i%3==0)
+		{
+			continue;
+		}
+
+		printf("%d", i);
 	}
 
 
 #pragma endregion
 
-#pragma region OR 연산자
-
-	int weight = 70;
-	int bodyfat = 30;
-
-	if (weight > 75 || bodyfat > 20)
-	{
-		printf("비만입니다.");
-	}
-
-#pragma endregion
-
-#pragma region NOT 연산자
-	//하나의 조건을 반전시키는 연산자입니다.
-
-	int power = 0;
-
-	if (!power)
-	{
-		printf("off");
-	}
-
-#pragma endregion
-
-#pragma region 4분면
-
-	
-#pragma endregion
 
 
 #pragma endregion
 
-// pull request
-
-#pragma endregion
-
-
-	return 0;
 }

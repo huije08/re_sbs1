@@ -1,3 +1,4 @@
 ﻿  Source.c
-C:\Users\huije\OneDrive\바탕 화면\re_sbs1\Program\Source.c(63,2): warning C4098: 'main': 'void' function returning a value
+C:\Users\huije\OneDrive\바탕 화면\re_sbs1\Program\Source.c(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+C:\Users\huije\OneDrive\바탕 화면\re_sbs1\Program\Source.c(73,2): warning C4098: 'main': 'void' function returning a value
   Program.vcxproj -> C:\Users\huije\OneDrive\바탕 화면\re_sbs1\Program\x64\Debug\Program.exe
