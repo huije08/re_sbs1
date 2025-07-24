@@ -7,6 +7,13 @@
       "RelativeMoniker": "D:0:0:{6BE54BA0-D0DB-4991-B8A0-1BFE9DB42506}|Program.vcxproj|solutionrelative:Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6BE54BA0-D0DB-4991-B8A0-1BFE9DB42506}|Program.vcxproj|C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\re_sbs1\\Program\\utility.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6BE54BA0-D0DB-4991-B8A0-1BFE9DB42506}|Program.vcxproj|solutionrelative:utility.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6148E5B3-1A54-4C08-ABC2-95EB27DB75A6}|..\\Class6th (Iteration Statement)\\Class6th (Iteration Statement).vcxproj|C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\re_sbs1\\Class6th (Iteration Statement)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{52F69D3B-FEF3-4D47-8F33-864E81C23C5B}|..\\Class5th (Conditional Statement)\\Class5th (Conditional Statement).vcxproj|C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\re_sbs1\\Class5th (Conditional Statement)\\Class5th (Conditional Statement).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
@@ -29,11 +36,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "utility.h",
+              "DocumentMoniker": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\re_sbs1\\Program\\utility.h",
+              "RelativeDocumentMoniker": "utility.h",
+              "ToolTip": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\re_sbs1\\Program\\utility.h",
+              "RelativeToolTip": "utility.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-07-24T10:33:32.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Source.c",
+              "DocumentMoniker": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\re_sbs1\\Class6th (Iteration Statement)\\Source.c",
+              "RelativeDocumentMoniker": "..\\Class6th (Iteration Statement)\\Source.c",
+              "ToolTip": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\re_sbs1\\Class6th (Iteration Statement)\\Source.c",
+              "RelativeToolTip": "..\\Class6th (Iteration Statement)\\Source.c",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAQwHMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-07-24T09:08:19.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Class5th (Conditional Statement).cpp",
               "DocumentMoniker": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\re_sbs1\\Class5th (Conditional Statement)\\Class5th (Conditional Statement).cpp",
               "RelativeDocumentMoniker": "..\\Class5th (Conditional Statement)\\Class5th (Conditional Statement).cpp",
@@ -41,12 +74,11 @@
               "RelativeToolTip": "..\\Class5th (Conditional Statement)\\Class5th (Conditional Statement).cpp",
               "ViewState": "AgIAAGMAAAAAAAAAAAAiwJ0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-07-22T10:43:03.993Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T10:43:03.993Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\re_sbs1\\Class4th (Overflow \u0026 Underflow)\\Source.c",
               "RelativeDocumentMoniker": "..\\Class4th (Overflow \u0026 Underflow)\\Source.c",
@@ -58,7 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\re_sbs1\\Class3th (Bit)\\Source.c",
               "RelativeDocumentMoniker": "..\\Class3th (Bit)\\Source.c",
@@ -70,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\re_sbs1\\Class2th (variable \u0026 construct)\\Source.c",
               "RelativeDocumentMoniker": "..\\Class2th (variable \u0026 construct)\\Source.c",
@@ -82,7 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\re_sbs1\\Class1th (Compile)\\Source.c",
               "RelativeDocumentMoniker": "..\\Class1th (Compile)\\Source.c",
@@ -100,7 +132,7 @@
               "RelativeDocumentMoniker": "Source.c",
               "ToolTip": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\re_sbs1\\Program\\Source.c",
               "RelativeToolTip": "Source.c",
-              "ViewState": "AgIAACsAAAAAAAAAAAAwwFAAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-07-16T08:47:39.77Z",
               "EditorCaption": ""

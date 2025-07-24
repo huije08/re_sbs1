@@ -1,102 +1,94 @@
 #include <stdio.h>
+#define SIZE 5
+
+#pragma region 전처리기
+
+#pragma endregion
+
 
 void main()
 {
-#pragma region 반복문
-	// 프로그램 내에서 특정한 작업을 반복적으로 
-	// 수행하는 명령문 입니다.
+#pragma region 자료형 변환
+	// 서로 다른 자료형을 가지고 있는 변수끼리 연산이
+	// 이루어질 때 기존에 지정했던 자료형을 다른 자료형
+	// 으로 변환하는 과정입니다.
 
-#pragma region 증감 연산자
-	// 피연산자를 하나씩 증가시키거나 감소시킬 떄
-	// 사용하는 연산자임
+#pragma region 암묵적 형 변환
+	// 서로 다른 자료형으로 연산이 이루어질 때 자료형의 
+	// 크기가 더 큰 자료형으로 변환되는 과정입니다.
 
-	// int previouseX = 0;
-	// int x;
+	// int integer = 10;
+	// float decimal = 5.5f;
 	// 
-	// x = ++previouseX;
+	// float storage = integer + decimal;
 	// 
-	// printf("previouseX변수를 전위 증가한 값 : %d\n", previouseX);
-	// printf("x변수를 전위 증가한 값 : %d\n", x);
-	// 
-	// x = --previouseX;
-	// 
-	// printf("previouseX변수를 전위 감소 한 값 : %d\n", previouseX);
-	// printf("x변수를 전위 감소한 값 : %d\n", x);
+	// printf("%f\n", storage);
 
+	// 표현 범위가 작은 데이터에 표현범위가 큰 데이터를 
+	// 저장하게 되면 암묵적으로 데이터 손실이 발생합니다.
 
-	// 전위증강 연산자는 변수의 값을 증강시킨 후에 연산을 수행합니다.
-
-	// 후위 증강 연산자는 연산을 수행한 다음 변수의 값을 증강시킵니다.
-	// int previouseY = 0;
-	// int y;
-	// 
-	// y = previouseY++;
-	// 
-	// printf("previouseX변수를 후위 증가한 값 : %d\n", previouseY);
-	// printf("x변수를 후위 증가한 값 : %d\n", y);
-	// 
-	// y = previouseY--;
-	// 
-	// printf("previouseX변수를 후위 감소 한 값 : %d\n", previouseY);
-	// printf("x변수를 후위 감소한 값 : %d\n", y);
+	
 #pragma endregion
 
-#pragma region for문
-	// 초기식을 연산하여 조건식의 결과에 따라 특정한
-	// 횟수만큼 반복하는 반복문 입니다.
+#pragma region 명시적 형 변환
+	// 연산이 이루어지기 전에 사용자가 직접 자료형을
+	
+	// int x1 = 10;
+	// int x2 = 3;
+	// 
+	// float storage1 = x1 + x2;
+	// 
+	// float storage2 = (float)x1 / x2;
+	// 
+	// printf("%f\n", storage1);
+	// printf("%f\n", storage2);
 
-	//for (int i = 0; i < 10; i++)
+	// 정수형 변수끼리 연산을 수행하게 되면 정수의 결과가
+	// 값만 가질 수 있습니다.
+#pragma endregion
+
+#pragma endregion
+
+#pragma region 단축 평가 계산
+	// 계산을 진행하는 도중에 결과가 이미 확정된 경우
+	// 
+
+	//int x = 0;
+	//int y = 0;
+	//
+	//if (x != 0 && y++)
 	//{
-	//	printf("%d 번째 출력\n", i+1);
+	//	printf("short circuit\n");
 	//}
-#pragma endregion
-
-#pragma region while문
-	// 특정 조건을 만족할 때까지 계속해서 주어진 명령문을 
-	// 실행하는 반복문 입니다.
-	// int count = 5;
-	// while (count>0)
-	// {
-	// 	printf("count : %d\n", count);
-	// 	count--;
-	// }
-
-	// while문의 경우 위에서 아래로 실행되며, 아래에 있는
-	// 명령문의 실행이 다 끝나면 다시 위에있는 명령문으로
-	// 돌아가서 반복하는 구조입니다.
-#pragma endregion
-
-#pragma region do-while문
-	// 조건과 상관없이 한번의 작업을 수행한 다음 조건에 
-	// 따라 명령문을 실행하는 반복문입니다.
-
-	// int life = 0;
-	// 
-	// do
-	// {
-	//		printf("Alive\n");
-	// } while (life > 0);
-#pragma endregion
-
-#pragma region continue문
-	// 해당 조건문만 실행하지 않고, 반복문은 이어서
-	// 실행하는 제어문입니다.
-
-	for (int i = 1; 1 <= 10; i++)
-	{
-		if (i%3==0)
-		{
-			continue;
-		}
-
-		printf("%d", i);
-	}
-
+	//
+	//if (x == 0 || y++)
+	//{
+	//	printf("first or operator\n");
+	//}
+	//
+	//if (x != 0 || y++)
+	//{
+	//	printf("second or operator\n");
+	//}
+	//
+	//printf("y = %d", y);
 
 #pragma endregion
 
-
-
+#pragma region 매크로
+	// 프로그램 내에서 특정한 데이터가 문자열로 정의되고
+	// 처리되는 과정입니다.
+	
+	// printf("매크로 SIZE의 값 : %d\n", SIZE);
 #pragma endregion
+
+
+#pragma region 전처리기
+	// 프로그램이 컴파일 되기 이전에 프로그램에 대한
+	// 사전 처리를 하는 과정입니다.
+
+	//printf("");
+#pragma endregion
+
 
 }
