@@ -1,57 +1,40 @@
 #include <stdio.h>
-#define SIZE 5
-
-
 
 void main()
 {
-#pragma region 주소 연산자
-	// 변수의 주소값을 반환하는 연산자입니다.
+#pragma region 배열
+	// 같은 자료형의 변수들로 이루어진 유한 집합입니다.
 
-	// int data = 10;
+	int list[5];
 
-	// printf("%p", &data);
+	// list[0] = 1;
+	// list[1] = 2;
+	// list[2] = 3;
+	// list[3] = 4;
+	// list[4] = 5;
 
-	// 데이터의 주소는 해당 데이터가 저장된 메모리의 시작 주소를
-	// 의미하며, 메모리 공간은 1byte의 크기로 나누어 표현합니다
+	//for (int i = 0; i < 5; i++)
+	//{
+	//
+	//	list[i] = (i + 1) * 10;
+	//	printf("lisst[%d] = %d ",i, list[i]);
+	//
+	//}
 
-#pragma endregion
+	// 배열의 첫 번째 원소는 0부터 시작합니다
 
-#pragma region scanf_s함수
-	//int x = 0;
+	int array[] = { 10, 20, 30, 40, 50 };
 
-	//scanf_s("%d", &x);
+	int size = sizeof(array) / sizepf(array[0]);
 
-	//printf("x변수의 값 : %d\n", x);
+	for (int i = 0; i < 5; i++)
+	{
+		printf("array값");
+	}
 
+	int list[5];
 	
-#pragma endregion
 
-#pragma region 포인터
-	// 메모리의 주소 값을 저장할 수 있는 변수입니다.
-
-	int storage = 10;
-
-	int* pointer = &storage;
-
-	ptintf("storage 변수의 주소값 : %p\n", &storage);
-	ptintf("pointer 변수의 값 : %p\n", pointer);
-	ptintf("pointer 변수의 주소 : %p\n", &pointer);
-
-	*pointer = 99;
-
-	ptintf("storage 변수의 값 : %d\n", storage);
-	ptintf("pointer 변수가 가리키는 값 : %d\n", *pointer);
-
-	int variable = 20;
-
-	pointer = &variable;
-
-	*pointer = 100;
-
-	printf("variable변수의 값 : %d\n", variable);
-	printf("pointer변수의 값 : %d\n", pointer);
-	printf("pointer 변수의 값 : %d\n", variable);
 
 #pragma endregion
 
