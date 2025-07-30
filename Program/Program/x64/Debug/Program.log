@@ -1,3 +1,2 @@
 ﻿  Source.c
-C:\Users\huije\OneDrive\바탕 화면\re_sbs1\Program\Source.c(33,22): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
   Program.vcxproj -> C:\Users\huije\OneDrive\바탕 화면\re_sbs1\Program\x64\Debug\Program.exe
