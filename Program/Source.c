@@ -1,45 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//int main()
-//{
-//#pragma region 동적할당
-//	int* pointer = malloc(4);
-//
-//	*pointer = 10;
-//
-//	printf("pointer 가리키는 값 : %d\n", *pointer);
-//
-//	free(pointer);
-//
-//	pointer = (int*)malloc(sizeof(int) * 3);
-//
-//	pointer[0] = 10;
-//	pointer[1] = 20;
-//	pointer[2] = 30;
-//
-//	for (int i = 0; i < 3; i++)
-//	{
-//		pirnt("%d\n", pointer[i]);
-//	}
-//
-//	free(pointer);
-//#pragma endregion
-//
-//#pragma region 허상포인터
-//	int* address = (int*)malloc(sizeof(int));
-//
-//	*address = 100;
-//
-//	printf("address변수가 가리키는 값 : %d ");
-//
-//	free(address);
-//
-//
-//#pragma endregion
-//
-//	return 0;
-//}
 
 struct Data
 {
@@ -47,6 +8,20 @@ struct Data
 	int health;
 	double experience;
 };
+
+struct Point2D
+{
+	int x;
+	int y;
+};
+
+struct Node
+{
+	int data;
+	struct Node* next;
+	
+};
+
 int main()
 {
 #pragma region 구조체
@@ -57,18 +32,54 @@ int main()
 
 	
 
-	// 구조체를 선언하기 전에 구조체를 메모리 공간이
-	//
+	// 구조체를 선언하기 전에 구조체를 메모리 공간입니다.
+
+#pragma endregion
+
+#pragma region 두 점 사이의 거리
+
+	struct Point2D rogue = { 0, 0 };
+	struct Point2D slime = { 5, 3 };
 	
+	double x = rogue.x - slime.x;
+	double y = rogue.y - slime.y;
+
+	double distance = sqrt(pow(x, 2) + pow(y, 2));
+
+	if (distance >= 5.0)
+	{
+		printf("It is safe\n");
+	}
+	else
+	{
+		printf("target is \n");
+	}
+
+#pragma endregion
+
+
+#pragma region 바이트 패딩
+	// 멤버 변수를 메모리에서 CPU로 읽을 때 한 번에
+	// 읽을 수 있도록, 컴파일러가 레지스터의 블록에 
+	// 맞추어 바이트를 패딩해주는 최적화 작업입니다.
+
+	struct Data Packet = { 'A', 10, 17.5 };
+
+	printf("Data 구조체의 크기 : %u\n", sizeof(Packet));
+
+	struct Ability ability = { 'A', 13.325, 5 };
+	printf("Ability 구조체의 크기  : %d\n", sizeof(ability));
+
+#pragma endregion
+
+#pragma region 자기 참조 구조체
+
+	struct Node node1 = { 10, NULL };
+
 
 
 #pragma endregion
 
-#pragma region
-	
-
-
-#pragma endregion
 
 	return 0;
 }
